@@ -32,4 +32,9 @@ def text_edit(original_text,stop_words):
         else:
             coun=coun-1
             coun_all+=1
-
+#显示原文本
+def print_text(original_text):
+    print(original_text)
+#显示总次数
+def print_total_num(original_text):
+    print(len(original_text))
